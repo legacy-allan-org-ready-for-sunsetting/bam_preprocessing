@@ -1,0 +1,6 @@
+[submodule "align_sample"]
+	path = align_sample
+	url = https://github.com/mskcc-cwl/align_sample
+[submodule "base_recalibration"]
+	path = base_recalibration
+	url = https://github.com/mskcc-cwl/base_recalibration
