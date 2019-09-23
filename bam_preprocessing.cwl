@@ -32,10 +32,14 @@ outputs:
     outputSource:
       - align_sample/output_md_bam
     type: File
+    secondaryFiles:
+      - ^.bai
   - id: output_bam
     outputSource:
       - base_recalibration/output_bam
     type: File
+    secondaryFiles:
+      - ^.bai
 steps:
   - id: align_sample
     in:
